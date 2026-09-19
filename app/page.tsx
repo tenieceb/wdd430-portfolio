@@ -1,6 +1,7 @@
 import ProjectList from '@/components/ProjectList';
 import { getProjects } from '@/lib/projects-db';
 
+
 export default async function Home() {
   const projects = await getProjects();
 
